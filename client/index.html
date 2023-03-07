@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+
+    <title>Basic WebRTC</title>
+  </head>
+
+  <body>
+    <video id="localVideo" autoplay muted style="width:40%;"></video>
+    <video id="remoteVideo" autoplay style="width:40%;"></video>
+
+    <br />
+
+    <div class="box">
+        <button id="startButton">Comenzar</button>
+        <button id="callButton">Llamar</button>
+        <button id="hangupButton">Colgar</button>
+    </div>
+
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script src="webrtc.js"></script>
+  </body>
+</html>
